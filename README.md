@@ -21,7 +21,7 @@ With Splat, you can accelerate the development, testing, debugging, and simulati
 2. Install Splat's dependencies by clicking on the "install button".
 3. Open the Splat configuration menu.
 
-    ![Step](https://github.com/Ac6Embedded/vscode-splat/tree/main/images/UsageStep.png)
+![Step](https://raw.githubusercontent.com/Ac6Embedded/vscode-splat/refs/heads/main/images/UsageStep.png)
 
 ## Splat Configuration
 
@@ -31,13 +31,13 @@ Port and simulator configurations are mainly useful for advanced cases, such as 
 
 Before configuring Splat, ensure you have a compiled project for the board you intend to simulate. Additionally, if you plan to debug, make sure you have the appropriate toolchain installed, such as arm-none-eabi-gdb.
 
-![Step](https://github.com/Ac6Embedded/vscode-splat/tree/main/images/SplatConfiguration.png)
+![Step](https://raw.githubusercontent.com/Ac6Embedded/vscode-splat/refs/heads/main/images/SplatConfiguration.png)
 
 ## Run and Debug
 
 Once you have finished configuring Splat, you can run a debug or run command to automatically apply the changes and launch the simulation.
 
-![Step](https://github.com/Ac6Embedded/vscode-splat/tree/main/images/Simulation.png)
+![Step](https://raw.githubusercontent.com/Ac6Embedded/vscode-splat/refs/heads/main/images/Simulation.png)
 
 ## Supported Board
 
