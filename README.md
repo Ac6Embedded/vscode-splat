@@ -1,5 +1,7 @@
 # Splat
 
+![Step](https://raw.githubusercontent.com/Ac6Embedded/vscode-splat/refs/heads/main/images/Overview.png)
+
 ## What is Splat?
 
 Splat, developed by AC6, is an innovative hardware simulation tool based on Renode. Integrated directly into Visual Studio Code.
@@ -21,7 +23,7 @@ With Splat, you can accelerate the development, testing, debugging, and simulati
 2. Install Splat's dependencies by clicking on the "install button".
 3. Open the Splat configuration menu.
 
-![Step](https://raw.githubusercontent.com/Ac6Embedded/vscode-splat/refs/heads/main/images/UsageStep.png)
+    ![Step](https://raw.githubusercontent.com/Ac6Embedded/vscode-splat/refs/heads/main/images/UsageStep.png)
 
 ## Splat Configuration
 
@@ -37,14 +39,12 @@ Before configuring Splat, ensure you have a compiled project for the board you i
 
 Once you have finished configuring Splat, you can run a debug or run command to automatically apply the changes and launch the simulation.
 
-![Step](https://raw.githubusercontent.com/Ac6Embedded/vscode-splat/refs/heads/main/images/Simulation.png)
-
 ## Supported Board
 
-STM32F4-DISCOVERY
-SiFive_HiFive1
-STM32B-L475E-IOT01A
-STM32F4_Discovery
-STM32F746G_DISCO
-STM32L562E-DK
-STM32NUCLEO_WBA55CG
+- STM32F4-DISCOVERY  
+- SiFive_HiFive1  
+- STM32B-L475E-IOT01A  
+- STM32F4_Discovery  
+- STM32F746G_DISCO  
+- STM32L562E-DK  
+- STM32NUCLEO_WBA55CG
