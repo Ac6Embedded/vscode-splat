@@ -2,6 +2,8 @@
 
 ![Step](https://raw.githubusercontent.com/Ac6Embedded/vscode-splat/refs/heads/main/images/Overview.png)
 
+---
+
 ## What is Splat?
 
 Splat, developed by AC6, is an innovative hardware simulation tool based on Renode. Integrated directly into Visual Studio Code.
@@ -16,6 +18,25 @@ With Splat, you can accelerate the development, testing, debugging, and simulati
 - **Fast Setup**: Accelerates the setup process with minimal configuration, making it easier to start working on your IoT projects quickly.
 - **Cost-Effective**: Reduces the need for physical hardware, saving costs and streamlining the development workflow.
 - **Reliable Performance**: Ensures reliable performance and accurate simulation results to improve your software’s quality.
+
+---
+
+## Prerequisites
+
+### macOS
+
+To use Renode on macOS, you need to install Mono, which provides essential tools and runtime support. Follow the steps below to install Mono:
+
+1. Visit the official Mono website: [Mono for macOS Installation Guide](https://www.mono-project.com/docs/getting-started/install/mac/).
+2. Download and install the latest stable version of Mono by following the instructions provided on the page.
+
+Ensure that Mono is correctly installed and accessible from your terminal by running the following command:
+
+```
+mono --version
+```
+
+This command should display the installed version of Mono, confirming that the installation was successful.
 
 ## Usage
 

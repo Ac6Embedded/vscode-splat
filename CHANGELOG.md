@@ -1,13 +1,32 @@
 # Change Log
 
-All notable changes to the "splat" extension will be documented in this file.
+## [1.0.8]
+
+### New Features
+
+- **Splat Support on macOS**:  
+Splat is now fully supported on Visual Studio Code for macOS! Users can seamlessly install and configure Splat directly within the VS Code environment. Handling for cases where Mono is not installed has been added, ensuring smoother setup. Dependency versioning is now implemented to enhance reliability. For detailed installation steps, see the updated README.
+
+- **Command-Line Mode for Splat**:  
+Added the ability to run Splat without a graphical interface. This allows users to integrate Splat more effectively into automated workflows or use it in headless environments.
+
+### Enhancements
+
+- **Splat Interface Updates**:  
+  - Removed the "Update Dependencies" button to simplify the UI.  
+  - Improved the gdb detection function for better reliability and usability.  
+
+### Bug Fixes
+
+- Fixed minor bugs related to window management on macOS.  
+- Resolved compatibility issues for older macOS versions.  
 
 ## [1.0.7]
 
 ### New Features
 
 - The board listing mechanism has been updated to dynamically adapt to the value set in the "Board Visualization Path" configuration.
-- Added support for the FRDM-MCXN947 board, with initial functionality focused on GPIOs.
+- Added support for the FRDM-MCXN947 board, with initial functionality without GPIOs.
 
 ### Bug Fixes
 
